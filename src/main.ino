@@ -23,10 +23,10 @@ void showStatus(bool _emergency_flag)
 
     if (_emergency_flag)
     {
-        background_color = TFT_GREEN;
-        text_color = TFT_BLACK;
-        text_offset = -110;
-        text = "RECOVERY";
+        background_color = TFT_BLACK;
+        text_color = TFT_WHITE;
+        text_offset = -80;
+        text = "UNLOCK";
     }
     else
     {
